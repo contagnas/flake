@@ -38,6 +38,7 @@
               cargo
             ] ++ (if inShell then [
               # In 'nix develop', provide some developer tools.
+              rust-analyzer
               rustfmt
               clippy
             ] else [
